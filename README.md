@@ -1,4 +1,4 @@
-# SQL Project Retail Sales Analysis
+# SQL Project: Retail Sales Analysis
 ## Project Overview
 The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. The data table contains 11 columns that include the detail of the retail sales data. Those columns, specified by each data type, are written below:
 + **int**: transaction_id, customer_id, age, quantity
