@@ -17,7 +17,7 @@ The project involves setting up a retail sales database, performing exploratory 
 ### 1. Database Setup
 + **Database Creation**: Here, I use the old database that I have made before named "Perusahaan".
 + **Data uploaded**: The csv file of the retail sales data is uploaded directly from MySQL. The data table is named as "retail".
-+ **Modify table**: Right after uploading the data, the table was checked  to see if there any mistake in column naming or wrong data type. I do some corrections for the errors.
++ **Modify table**: Right after uploading the data, the table was checked  to see if there any mistake in column naming or wrong data type. I did some corrections for the errors as shown in the following.
 ``` js
 -- modify column name
 alter table retail change column ï»¿transactions_id transaction_id int;
@@ -194,4 +194,14 @@ SELECT
 FROM hourly_sale
 GROUP BY shift;
 ```
+
+## What we get from the analysis?
++ **Customer Demographics**: The dataset shows customers of diverse ages, and sales are distributed over several categories, including Clothing and Beauty.
++ **High-Value Transactions**: A few of these transactions involved premium purchases, with the total sale amount exceeding $1,000.
++ **Sales Trends**: Monthly analysis helps determine peak seasons by displaying variances in sales.
++ **Customer insights**: The analysis determines the most popular product categories and the highest-spending clients.
+
+## Conclusion
+Database setup, data cleaning, exploratory data analysis, and business-driven SQL queries are all covered in this project, which provides a comprehensive introduction to SQL for data analysts. By comprehending sales trends, consumer behavior, and product performance, this can help us in understanding the business potential.
+the project's findings can inform corporate choices.
 
