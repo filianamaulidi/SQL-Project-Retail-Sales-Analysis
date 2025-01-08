@@ -82,6 +82,18 @@ WHERE
 ```
 **2. Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022**
 ```js
+-- retrieve all data that satisfied the condition
+SELECT 
+  *
+FROM retail
+WHERE 
+    category = 'Clothing'
+    AND 
+    sale_date like '2022_11%'
+    AND
+    quantity >= 4;
+
+-- show only the sum of quantity of data satisfied the condition
 SELECT  
   category, sum(quantity)
 FROM retail
@@ -182,3 +194,4 @@ SELECT
 FROM hourly_sale
 GROUP BY shift;
 ```
+
