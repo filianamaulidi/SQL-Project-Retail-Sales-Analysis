@@ -202,6 +202,6 @@ GROUP BY shift;
 + **Customer insights**: The analysis determines the most popular product categories and the highest-spending clients.
 
 ## Conclusion
-Database setup, data cleaning, exploratory data analysis, and business-driven SQL queries are all covered in this project, which provides a comprehensive introduction to SQL for data analysts. By comprehending sales trends, consumer behavior, and product performance, this can help us in understanding the business potential.
+Database setup, data cleaning, exploratory data analysis, and business-driven SQL queries are all covered in this project, which provides a comprehensive analysis to SQL gather business and sales information. By comprehending sales trends, consumer behavior, and product performance, this can help us in understanding the business potential.
 the project's findings can inform corporate choices.
 
