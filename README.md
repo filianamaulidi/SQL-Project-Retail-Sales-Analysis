@@ -71,6 +71,7 @@ WHERE
 ```
 ### 3. Data Analysis and Findings
 Here are some questions to answer the business question and help to develop the business.
+
 **1. Write a SQL query to retrieve all columns for sales made on '2022-11-05**
 ``` js
 SELECT 
